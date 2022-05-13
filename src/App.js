@@ -2,8 +2,7 @@ import React from "react";
 import Todo from "./components/Todo";
 import { useRef, useState, useEffect } from "react";
 
-export const url = "postgresql://jkftjegojdzzcw:2f1bdaee77145fe721e4f67315654f49abd91c4f1bca994f4fd3852dcdbef8fc@ec2-52-200-215-149.compute-1.amazonaws.com:5432/dc6iktadibn7jh
-"; 
+export const url = "https://get-my-sree.herokuapp.com/api/v1";
 
 function App() {
   const [todoList, setTodoList] = useState([]);
